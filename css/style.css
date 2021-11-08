@@ -1,0 +1,506 @@
+html,
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #fff9f1;
+    height: 100px;
+    width: 100%;
+    max-height: 100px;
+    bottom: 0;
+}
+
+.container {
+    width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    margin-top: 14px;
+    position: absolute;
+    width: 100%;
+}
+
+.navigate {
+    font-size: 24px;
+    position: absolute;
+    margin: auto;
+    margin-top: 37px;
+    margin-left: 335px;
+    max-width: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+
+span {
+    padding-left: 50px;
+}
+
+.register {
+    background-color: #585858;
+    height: 40px;
+    width: 250px;
+    float: right;
+    margin-top: 30px;
+    border: black 1px;
+    border-style: solid;
+    margin-right: 80px;
+}
+
+.text1 {
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+}
+
+.sign {
+    float: right;
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    border: black 1px;
+    border-style: solid;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.text2 {
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+    color: black;
+}
+
+.reminder {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.text3 {
+    color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.story {
+    height: 720px;
+}
+
+.wanker {
+    background-image: url(../img/fiat.jpeg);
+    position: absolute;
+    width: 1080px;
+    height: 720px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.help {
+    width: 23%;
+    height: 720px;
+    background-color: #fff9f1;
+    float: right;
+}
+
+.giuseppe {
+    font-size: 45px;
+    text-align: left;
+    width: 200px;
+    margin-left: 35px;
+    font-family: 'Playfair Display', serif;
+    font: italic;
+}
+
+.text4 {
+    font-size: 30px;
+    width: 200px;
+    margin-left: 35px;
+    color: #585858;
+    font-family: 'Playfair Display', serif;
+}
+
+.discover {
+    position: relative;
+    margin-top: 50px;
+    font-size: 25px;
+    width: 550px;
+    color: #585858;
+    height: 100px;
+    margin-left: 35px;
+    width: 290px;
+    font-family: 'roboto';
+}
+
+.button {
+    background-color: #585858;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 95px;
+    margin-top: 50px;
+    border: black 1px;
+    border-style: solid;
+    transition: transform .2s;
+}
+
+.button:hover {
+    transform: scale(1.2)
+}
+
+.text5 {
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 22px;
+}
+
+.clear {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.grid {
+    height: 1080px;
+    width: 100%;
+    background-color: #fff9f1;
+}
+
+.text6 {
+    font-size: 40px;
+    padding-top: 20px;
+    position: relative;
+    margin-left: 550px;
+}
+
+.article {
+    height: 450px;
+    width: 300px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 100px;
+    transition: transform .2s;
+    background-image: url(../img/steeringwheel.jpeg);
+    background-size: contain;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.76);
+}
+
+.fake1 {
+    height: 450px;
+    width: 300px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 100px;
+    transition: transform .2s;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.76);
+    background-image: url(../img/filler2.jpeg);
+    background-size: contain;
+}
+
+.fake2 {
+    height: 450px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 532.5px;
+    margin-right: 0;
+    position: absolute;
+    transition: transform .2s;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.76);
+    background-image: url(../img/filler1.jpeg);
+    background-size: contain;
+}
+
+.article:hover {
+    transform: scale(1.3);
+    box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.76);
+}
+
+.fake1:hover {
+    transform: scale(1.3);
+    box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.76);
+}
+
+.fake2:hover {
+    transform: scale(1.3);
+    box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.76);
+}
+
+.description {
+    margin-top: 600px;
+    margin-left: 100px;
+    width: 300px;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.underlying {
+    color: #585858;
+    font-size: 25px;
+    text-align: center;
+    width: 200px;
+    margin-left: 50px;
+    font-family: 'roboto';
+}
+
+.soon {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 300px;
+    margin-top: 400px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+footer {
+    background-color: #fff9f1;
+    height: 100px;
+    width: 100%;
+    max-height: 100px;
+    position: relative;
+}
+
+.disclaimer {
+    font-size: 28px;
+    max-width: 100%;
+    width: 60%;
+    overflow: hidden;
+    padding-top: 20px;
+    color: #585858;
+    margin-left: 275px;
+    font-family: 'roboto';
+}
+
+.copyright {
+    font-size: 28px;
+    position: absolute;
+    padding-top: 20px;
+    color: #585858;
+    font-family: 'roboto';
+}
+
+.contact {
+    font-size: 28px;
+    padding-top: 20px;
+    float: right;
+    width: 350px;
+    color: #585858;
+    font-family: 'roboto';
+}
+.image1{
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    height: 800px;
+    width: 550px;
+    background-image: url(../img/roadfiat.jpeg);
+    position:absolute;
+}
+.intro1{
+    clip-path: polygon(1.60% 0, 100% 0%, 100% 100%, 0% 100%);
+    height: 70px;
+    width: 795px;
+    background-color: #fff9f1;
+    float: right;
+}
+.liner1 {
+    font-size: 45px;
+    text-align: left;
+    width: 800px;
+    margin-left: 35px;
+    font-family: 'Playfair Display', serif;
+    font: italic;
+    margin-left:45px;
+}
+.blockie{
+    clip-path: polygon(12.5% 0, 100% 0%, 100% 100%, 0% 100%);
+    background-color:#fff9f1;
+    width: 916px;
+    height: 680px;
+    float: right;
+    margin-top: 50px;
+}
+.introtext{
+    text-align: left;
+    font-size:26px;
+    width: 700px;
+    margin-left: 170px;
+    margin-top:65px;
+    color: #585858;
+    font-family: 'roboto', serif;
+    line-height: 1.5em;
+}
+.inleiding{
+    width: 100%;
+    height: 800px;
+}
+
+.evolution{
+    width: 1366px;
+    height: 800px;
+}
+.image2{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    height: 800px;
+    width: 550px;
+    background-image: url(../img/designer.png);
+    background-size: contain;
+    float: right;
+}
+.blocko{
+    clip-path: polygon(0% 0%, 75% 0%, 63.5% 50%, 75% 100%, 0% 100%);
+    height: 800px;
+    width: 1225px;
+    background-color: #fff9f1;
+    float: left;
+    position: absolute;
+}
+.evotitle{
+    font-size: 45px;
+    text-align: left;
+    width: 800px;
+    margin-left: 35px;
+    font-family: 'Playfair Display', serif;
+    font: italic;
+}
+.para1{
+    text-align: left;
+    font-size:26px;
+    width: 700px;
+    margin-left:35px;
+    color: #585858;
+    font-family: 'roboto', serif;
+    margin-top: 0px;
+    line-height: 1.5em;
+}
+.vorm{
+    width: 1366px;
+    height: 800px;
+    background-color:#fff9f1;
+}
+.vormtitle{
+    font-size: 45px;
+    text-align: left;
+    width: 800px;
+    margin-left: 35px;
+    font-family: 'Playfair Display', serif;
+    font: italic;
+    margin-left:35px;
+}
+.left{
+    width:50%;
+    height:750px;
+    position: absolute;
+}
+.linkertext{
+    text-align: left;
+    font-size:26px;
+    width: 575px;
+    margin-left:35px;
+    color: #585858;
+    font-family: 'roboto', serif;
+    margin-top:15px ;
+    line-height: 1.5em;
+}
+.splitter{
+    height: 600px;
+    width: 2px;
+    background-color: #585858;
+    margin-top:35px;
+    position:absolute;
+}
+.right{
+    width: 50%;
+    height: 750px;
+    float: right;
+}
+.rechtertext{
+    text-align: left;
+    font-size:26px;
+    width: 500px;
+    margin-left:35px;
+    color: #585858;
+    font-family: 'roboto', serif;
+    margin-left: 100px;
+    margin-top: 15px;
+    line-height: 1.5em;
+}
+.image3{
+    clip-path: polygon(0% 0%, 75% 0%, 50% 50%, 75% 100%, 0% 100%);
+    background-image: url(../img/rally.png);
+    height: 800px;
+    width: 750px;
+    background-size: contain;
+    position: absolute;
+}
+.vierkant{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 6.5% 50%);
+    height: 800px;
+    width: 1025px;
+    background-color: #fff9f1;
+    float: right;
+}
+.homologation{
+    height: 800px;
+}
+.homotitel{
+    font-size: 45px;
+    text-align: left;
+    width: 800px;
+    margin-left: 35px;
+    font-family: 'Playfair Display', serif;
+    font: italic;
+    margin-left: 275px;
+}
+.homotekst{
+    text-align: left;
+    font-size:26px;
+    width: 650px;
+    color: #585858;
+    font-family:'roboto', serif;
+    margin-left:275px;
+    margin-top:15px;
+    line-height: 1.5em;
+}
+.image4{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    width: 550px;
+    height: 800px;
+    background-image: url(../img/corolla.jpeg);
+    background-size: contain;
+    float: right;
+}
+.square{
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+    width: 916px;
+    height: 800px;
+    background-color: #fff9f1;
+
+}
+.veiltitel{
+    font-size: 45px;
+    text-align: left;
+    width: 800px;
+    margin-left: 35px;
+    font-family: 'Playfair Display', serif;
+    font: italic;
+}
+.veiltekst{
+    text-align: left;
+    font-size:26px;
+    width: 750px;
+    color: #585858;
+    font-family:'roboto', serif;
+    line-height: 1.5em;
+    margin-left: 35px;
+    margin-top: 5px;
+}
